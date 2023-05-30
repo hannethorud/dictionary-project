@@ -5,14 +5,23 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">test</header>
+        <header className="App-header">Heading</header>
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer">
-          <small>Coded by SheCodes</small>
-        </footer>
       </div>
+
+      <footer className="App-footer">
+        <a
+          href="https://github.com/hannethorud/react-app"
+          target="_blank"
+          rel="noreferrer"
+          className="link"
+        >
+          Open-sourced project
+        </a>{" "}
+        by Hanne S. Thorud
+      </footer>
     </div>
   );
 }

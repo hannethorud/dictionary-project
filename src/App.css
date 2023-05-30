@@ -8,7 +8,55 @@
   margin: 0 auto;
 }
 
-.App-footer {
+.App-footer.to {
   text-align: center;
   margin: 30px 0;
+}
+
+body {
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  font-family: "Montserrat", sans-serif;
+}
+
+link {
+  color: black;
+}
+
+.App {
+  width: 500px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 40px auto;
+  display: block;
+  padding: 30px;
+  padding-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.App-footer {
+  font-size: 12px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+a.App {
+  color: black;
+}
+
+.App a:link {
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+  font-family: "Montserrat", sans-serif;
 }
